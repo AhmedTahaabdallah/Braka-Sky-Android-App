@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/allsentrqlayout_all_users_sent_rq_allcont_margin"
+    android:id="@+id/all_users_sent_rq_allcont"
+    android:background="@color/colorprofilesub"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/all_user_sent_friends_request_contener"
+        >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/allsentrqlayout_all_users_sent_friends_request_profile_image_width"
+        android:layout_height="@dimen/allsentrqlayout_all_users_sent_friends_request_profile_image_height"
+        android:id="@+id/all_users_sent_friends_request_profile_image"
+        android:layout_marginStart="@dimen/allsentrqlayout_all_users_sent_friends_request_profile_image_marginstrt"
+        android:layout_marginEnd="@dimen/allsentrqlayout_all_users_sent_friends_request_profile_image_marginend"
+        android:src="@drawable/profile"
+        android:layout_marginTop="@dimen/allsentrqlayout_all_users_sent_friends_request_profile_image_margintop"
+        android:layout_marginBottom="@dimen/allsentrqlayout_all_users_sent_friends_request_profile_image_marginbottom"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/allsentrqlayout_all_sent_rq_info_connnn_margin"
+        android:id="@+id/all_sent_rq_info_connnn"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/all_users_sent_friends_request_profile_full_name"
+            android:text="@string/sent_friends_request_profile_full_name"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            android:textSize="@dimen/allsentrqlayout_all_users_sent_friends_request_profile_full_name_name_textsize"
+            android:layout_marginBottom="@dimen/allsentrqlayout_all_users_sent_friends_request_profile_full_name_marginbottom"
+            android:layout_marginTop="@dimen/allsentrqlayout_all_users_sent_friends_request_profile_full_name_margintop"
+            android:textDirection="locale"
+            />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/person_cancle__sent_friends_request_button"
+
+            android:background="@color/cancle_friend_request_color"
+            android:text="@string/sent_friends_request_decline_friend_request_button"
+            android:textAllCaps="false"
+            android:layout_marginBottom="@dimen/allsentrqlayout_person_cancle__sent_friends_request_button_marginbottom"
+            android:textColor="@android:color/background_light"
+            android:paddingStart="@dimen/allsentrqlayout_person_cancle__sent_friends_request_button_paddingstart"
+            android:paddingEnd="@dimen/allsentrqlayout_person_cancle__sent_friends_request_button_paddingend"
+            android:textSize="@dimen/allsentrqlayout_person_cancle__sent_friends_request_button_textsize"
+
+            android:layout_below="@+id/all_users_sent_friends_request_profile_full_name"
+            />
+    </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

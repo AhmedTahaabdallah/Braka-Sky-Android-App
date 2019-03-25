@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MissingDefaultResource"
+    android:background="@color/mainBackground"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_mainactivity_root"
+        >
+
+        <include
+            layout="@layout/app_bar_layout"
+            android:id="@+id/main_page_toolbar">
+
+        </include>
+
+        <FrameLayout
+            android:id="@+id/main_continer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/main_page_toolbar"
+            android:padding="@dimen/mainactivity_main_continer_pading">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_margin="@dimen/mainactivity_all_users_post_list_margin"
+                android:padding="@dimen/mainactivity_all_users_post_list_pading"
+                android:id="@+id/all_users_post_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:fadeScrollbars="false"
+                android:scrollbarThumbVertical="@android:color/holo_red_dark"
+                android:scrollbarSize="@dimen/myscroolbar_size"
+                />
+        </FrameLayout>
+        <ImageButton
+            android:id="@+id/add_new_post_imagebutton"
+            android:layout_width="@dimen/mainactivity_add_new_post_imagebutton_width"
+            android:layout_height="@dimen/mainactivity_add_new_post_imagebutton_height"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/add_postfinal"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="@dimen/mainactivity_add_new_post_imagebutton_marginbottom"
+            android:layout_marginEnd="@dimen/mainactivity_add_new_post_imagebutton_marginend"
+            android:layout_marginTop="@dimen/mainactivity_add_new_post_imagebutton_margintop"
+            android:background="@color/colorPrimaryDark"
+            android:baselineAlignBottom="false"
+            android:focusableInTouchMode="false"
+            />
+        <ImageButton
+            android:id="@+id/go_to_gold_post_imagebutton"
+            android:layout_width="@dimen/mainactivity_go_to_gold_post_imagebutton_width"
+            android:layout_height="@dimen/mainactivity_go_to_gold_post_imagebutton_height"
+            android:layout_toStartOf="@+id/add_new_post_imagebutton"
+            android:src="@drawable/gold_star_after"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="@dimen/mainactivity_go_to_gold_post_imagebutton_marginbottom"
+            android:layout_marginEnd="@dimen/mainactivity_go_to_gold_post_imagebutton_marginend"
+            android:layout_marginTop="@dimen/mainactivity_go_to_gold_post_imagebutton_margintop"
+
+            android:baselineAlignBottom="false"
+            android:focusableInTouchMode="false"
+            />
+        <TextView
+            android:id="@+id/all_messge_of_user_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_toStartOf="@+id/go_to_gold_post_imagebutton"
+            android:layout_marginBottom="@dimen/mainactivity_all_messge_of_user_text_view_marginbottom"
+            android:layout_marginEnd="@dimen/mainactivity_all_messge_of_user_text_view_marginend"
+            android:layout_marginTop="@dimen/mainactivity_all_messge_of_user_text_view_margintop"
+            android:background="@drawable/circle_background_views"
+            android:textColor="@android:color/background_light"
+            android:paddingStart="@dimen/mainactivity_all_messge_of_user_text_view_paddingstart"
+            android:paddingEnd="@dimen/mainactivity_all_messge_of_user_text_view_paddingend"
+            android:paddingTop="@dimen/mainactivity_all_messge_of_user_text_view_paddingtop"
+            android:paddingBottom="@dimen/mainactivity_all_messge_of_user_text_view_paddingbottom"
+            android:textSize="@dimen/mainactivity_all_messge_of_user_text_view_textsize"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="@dimen/mainactivity_navigation_view_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginBottom="@dimen/mainactivity_navigation_view_marginbottom"
+        app:menu="@menu/navigation_menu"
+        android:fitsSystemWindows="true"
+        app:theme="@style/NavigationDrawerStyle">
+
+    </android.support.design.widget.NavigationView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nodata_mainactivity"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_light"
+        android:text="No Data Founed"
+        android:gravity="center"
+        android:textDirection="locale"
+        android:visibility="gone"/>
+
+</android.support.v4.widget.DrawerLayout>

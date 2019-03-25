@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource"
+    tools:context=".ShowdisLikesPostsUsersActivity"
+    android:id="@+id/main_showdislikeposts_root"
+    android:background="@color/colorprofile"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/all_show_dislikes_posts_users_textsimple"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/showdislikesposts_all_show_dislikes_posts_users_textsimple_textsize"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/showdislikesposts_all_show_dislikes_posts_users_textsimple_margintop"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:text="@string/friends_text_view_friends"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/show_dislikes_posts_users_list"
+        android:layout_below="@+id/all_show_dislikes_posts_users_textsimple"
+        android:layout_margin="@dimen/showdislikesposts_show_dislikes_posts_users_list_margin"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+        android:scrollbarThumbVertical="@drawable/myscrollbar"
+        android:scrollbarSize="@dimen/myscroolbar_size"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

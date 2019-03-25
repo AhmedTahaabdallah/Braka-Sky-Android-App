@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/mydialoglayout_width"
+    android:layout_height="@dimen/mydialoglayout_height"
+    android:layout_gravity="center"
+    android:layout_marginStart="@dimen/mydialoglayout_marginstart"
+    android:layout_marginEnd="@dimen/mydialoglayout_marginend"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layoutDirection="locale">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mydialoglayout_mydialog_card_height"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/mydialoglayout_mydialog_card_marginend"
+            android:layout_marginStart="@dimen/mydialoglayout_mydialog_card_marginstart"
+            app:cardCornerRadius="@dimen/mydialoglayout_mydialog_card_cardcornerradius"
+            app:cardElevation="@dimen/mydialoglayout_mydialog_card_cardelevation"
+            app:cardBackgroundColor="@color/mydialogbackgroundcolor"
+            android:id="@+id/mydialog_card"
+            >
+
+            <TextView
+                android:id="@+id/mydialog_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/mydialoglayout_mydialog_title_margintop"
+                android:gravity="center"
+                android:text="Update Post"
+                android:textColor="@android:color/background_light"
+                android:textSize="@dimen/mydialoglayout_mydialog_title_textsize"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/mydialog_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/mydialoglayout_mydialog_description_marginend"
+                android:layout_marginStart="@dimen/mydialoglayout_mydialog_description_marginstart"
+                android:gravity="center"
+                android:visibility="visible"
+                android:textColorHint="@android:color/background_dark"
+                android:layout_marginTop="@dimen/mydialoglayout_mydialog_description_margintop"
+                android:background="@drawable/inputs"
+                android:textSize="@dimen/mydialoglayout_mydialog_description_textsize"
+                android:padding="@dimen/mydialoglayout_mydialog_description_padding"
+                android:textDirection="locale"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Message Her"
+                android:id="@+id/mydialog_message"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/mydialoglayout_mydialog_message_marginend"
+                android:layout_marginStart="@dimen/mydialoglayout_mydialog_message_marginstart"
+                android:textColor="@android:color/background_light"
+                android:gravity="center"
+                android:textSize="@dimen/mydialoglayout_mydialog_message_textsize"
+                android:textStyle="bold"
+                android:padding="@dimen/mydialoglayout_mydialog_message_padding"
+                android:textDirection="locale"
+                android:visibility="invisible"/>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/mydialog_cancle"
+        android:layout_marginEnd="@dimen/mydialoglayout_mydialog_cancle_marginend"
+        android:layout_marginTop="@dimen/mydialoglayout_mydialog_cancle_margintop">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="@dimen/mydialoglayout_mydialog_cancle_flotting_width"
+            android:layout_height="@dimen/mydialoglayout_mydialog_cancle_flotting_height"
+            android:src="@android:color/transparent"
+            app:backgroundTint="@color/mydialogcanclecolor" />
+
+        <TextView
+            android:id="@+id/mydialog_cancle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="@dimen/mydialoglayout_mydialog_cancle_text_elevation"
+            android:text="Cancle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/mydialoglayout_mydialog_cancle_text_textsize"
+            android:visibility="visible"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/mydialog_ok"
+        android:layout_marginStart="@dimen/mydialoglayout_mydialog_ok_marginstart"
+        android:layout_marginTop="@dimen/mydialoglayout_mydialog_ok_margintop">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="@dimen/mydialoglayout_mydialog_ok_flotting_width"
+            android:layout_height="@dimen/mydialoglayout_mydialog_ok_flotting_height"
+            android:src="@android:color/transparent"
+            app:backgroundTint="@color/mydialogokcolor" />
+
+        <TextView
+            android:id="@+id/mydialog_ok_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="@dimen/mydialoglayout_mydialog_ok_text_elevation"
+            android:text="Update"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/mydialoglayout_mydialog_ok_text_textsize"
+            android:visibility="visible"/>
+    </FrameLayout>
+</FrameLayout>

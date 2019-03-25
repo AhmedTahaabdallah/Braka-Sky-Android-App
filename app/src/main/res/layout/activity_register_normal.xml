@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    tools:ignore="MissingDefaultResource"
+    android:background="@color/colorprofile"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+        android:scrollbarThumbVertical="@drawable/myscrollbar"
+        android:scrollbarSize="@dimen/myscroolbar_size"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="@dimen/register_main_register_root_paddingstart"
+            android:paddingEnd="@dimen/register_main_register_root_paddingend"
+            android:orientation="vertical"
+            android:id="@+id/main_register_root"
+            >
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/liner">
+                <!--<ImageView
+                    android:id="@+id/register_icon"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/logo"
+                    android:layout_gravity="center_horizontal"
+                    android:visibility="gone"/>-->
+                <TextView
+                    android:id="@+id/my_bbss"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="BS"
+                    android:textColor="@android:color/background_light"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/register_my_bbss_textsize"
+                    android:padding="@dimen/register_my_bbss_padding"/>
+            </LinearLayout>
+            <EditText
+                android:id="@+id/register_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/register_register_email_margintop"
+                android:layout_below="@id/liner"
+                android:background="@drawable/inputs"
+                android:drawableLeft="@drawable/email"
+                android:hint="@string/register_emaill"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/register_register_email_padding"
+                android:textSize="@dimen/register_register_email_textsize" />
+
+
+            <EditText
+                android:id="@+id/register_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/register_email"
+                android:layout_marginTop="@dimen/register_register_pass_margintop"
+                android:background="@drawable/inputs"
+                android:drawableLeft="@drawable/password"
+                android:hint="@string/register_password"
+                android:inputType="textPassword"
+                android:padding="@dimen/register_register_pass_padding"
+                android:textSize="@dimen/register_register_pass_textsize" />
+
+            <EditText
+                android:id="@+id/register_pass_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/register_pass"
+                android:layout_marginTop="@dimen/register_register_pass_confirm_margintop"
+                android:background="@drawable/inputs"
+                android:drawableLeft="@drawable/password"
+                android:hint="@string/register_confirm_password"
+                android:inputType="textPassword"
+                android:padding="@dimen/register_register_pass_confirm_padding"
+                android:textSize="@dimen/register_register_pass_confirm_textsize" />
+
+            <Button
+                android:id="@+id/register_create_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/register_pass_confirm"
+                android:layout_marginTop="@dimen/register_register_create_account_margintop"
+                android:layout_marginBottom="@dimen/register_register_create_account_marginbottom"
+                android:background="@drawable/button"
+                android:padding="@dimen/register_register_create_account_padding"
+                android:text="@string/register_button"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textSize="@dimen/register_register_create_account_textsize"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

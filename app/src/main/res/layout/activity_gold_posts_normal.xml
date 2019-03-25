@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoldPostsActivity"
+    tools:ignore="MissingDefaultResource"
+    android:id="@+id/main_golposts_root"
+    >
+    <include
+        layout="@layout/app_bar_layout"
+        android:id="@+id/gold_posts_layout_bar"></include>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/all_gold_posts_list"
+        android:layout_below="@+id/gold_posts_layout_bar"
+        android:layout_margin="@dimen/goldposts_all_gold_posts_list_margin"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+        android:scrollbarThumbVertical="@android:color/holo_red_dark"
+        android:scrollbarSize="@dimen/myscroolbar_size"
+        android:padding="@dimen/goldposts_all_gold_posts_list_padding"></android.support.v7.widget.RecyclerView>
+</RelativeLayout>

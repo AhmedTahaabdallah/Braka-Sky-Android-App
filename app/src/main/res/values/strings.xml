@@ -1,0 +1,2194 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Baraka Sky</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="facebook_app_id" tools:ignore="ExtraTranslation">778572012486403</string>
+    <string name="fb_login_protocol_scheme">fb778572012486403</string>
+
+
+    <string name="login_emaill">Email...</string>
+    <string name="login_password">Password...</string>
+    <string name="login_button">Login</string>
+    <string name="login_phone_number_button">Phone Number</string>
+    <string name="login_register_link">Don\'t Have An Account, Need New Account?</string>
+    <string name="login_sociel_login_with">Or Login With</string>
+    <string name="login_forget_password">Forget Password ?</string>
+    <string name="login_toast_error_email">Please Write Your Email....</string>
+    <string name="login_toast_error_password">Please Write Your Password....</string>
+    <string name="login_toast_success">You Are Logged In Successfully....</string>
+    <string name="login_toast_not_success">"Error : "</string>
+    <string name="login_loadingbar_title">Login</string>
+    <string name="login_loadingbar_message">Please Wait, While We Are Allowing You To Login Into Your Account....</string>
+    <string name="login_google_sign_in_connection_faild">Connection To Google Sign In Faild....</string>
+    <string name="login_google_sign_in_not_auth">Not Authenticted : </string>
+    <string name="login_google_sign_in_result_success">Please Wait, While We Are Getting Your Auth Result....</string>
+    <string name="login_google_sign_in_result_not_success">Can\'t get Auth Result</string>
+    <string name="login_google_sign_in_loadingbar_title">Google Sign In</string>
+    <string name="login_google_sign_in_loadingbar_message">Please Wait, While We Are Allowing You To Login Using Your Google Account....</string>
+    <string name="login_verify_emaill_account">Please Verify Your Account From Your Email First...</string>
+    <string name="login_errorcode_invald_customtoken">The custom token format is incorrect. Please check the documentation.</string>
+    <string name="login_errorcode_customtoken_mismatch">The custom token corresponds to a different audience.</string>
+    <string name="login_errorcode_invaild_credential">The supplied auth credential is malformed or has expired.</string>
+    <string name="login_errorcode_invaild_email">The email address is badly formatted.</string>
+    <string name="login_errorcode_invaild_email_error">The email address is badly formatted.</string>
+    <string name="login_errorcode_wrong_password">The password is invalid or the user does not have a password.</string>
+    <string name="login_errorcode_wrong_password_error">password is incorrect</string>
+    <string name="login_errorcode_user_mismatch">The supplied credentials do not correspond to the previously signed in user</string>
+    <string name="login_errorcode_requiers_recent_login">This operation is sensitive and requires recent authentication. Log in again before retrying this request</string>
+    <string name="login_errorcode_exist_acountwithcredentials">An account already exists with the same email address but different sign-in credentials. Sign in using a provider associated with this email address.</string>
+    <string name="login_errorcode_email_inuse">The email address is already in use by another account.</string>
+    <string name="login_errorcode_email_inuse_error">The email address is already in use by another account</string>
+    <string name="login_errorcode_credential_inuse">This credential is already associated with a different user account.</string>
+    <string name="login_errorcode_user_disabled">The user account has been disabled by an administrator.</string>
+    <string name="login_errorcode_user_tokkenexpired">The user\'s credential is no longer valid. The user must sign in again.</string>
+    <string name="login_errorcode_user_notfound">There is no user record corresponding to this identifier. The user may have been deleted.</string>
+    <string name="login_errorcode_invaild_user_tokken">The user\'s credential is no longer valid. The user must sign in again.</string>
+    <string name="login_errorcode_operation_notallowed">This operation is not allowed. You must enable this service in the console.</string>
+    <string name="login_errorcode_weak_password">The given password is invalid.</string>
+    <string name="login_errorcode_weak_password_error">The password is invalid it must 6 characters at least</string>
+    <string name="login_errorcode_default">Can not Login</string>
+
+    <string name="phone_login_phone_number_text">Write Phone Number Here...</string>
+    <string name="phone_login_verification_code_text">Write Verification Code Here...</string>
+    <string name="phone_login_send_verification_code_button">Send Verification Code</string>
+    <string name="phone_login_verify_button">Verify</string>
+    <string name="phone_login_phone_number_text_isempty">Please Enter Your Phone Number First....</string>
+    <string name="phone_login_phone_number_text_invaild">Invalid Phone Number, Please Enter Correct Phone Number With Your Country Code...</string>
+    <string name="phone_login_phone_number_text_sent">Code has been Sent, Please Check And Verify....</string>
+    <string name="phone_login_phone_numberverfication_code_text_isempty">Please Write Verification Code First....</string>
+    <string name="phone_login_verification_code_loadingbar_title">Phone Verification</string>
+    <string name="phone_login_verification_code_loadingbar_message">Please Wait, While We Are Authenticating Your Phone....</string>
+    <string name="phone_login_verify_verification_code_loadingbar_title">Verification Code</string>
+    <string name="phone_login_verify_verification_code_loadingbar_message">Please Wait, While We Are Verifying Verification Code....</string>
+    <string name="phone_login_verify_success">Congratulations, You\'re Logged In Successfully...</string>
+    <string name="phone_login_toast_not_success">Error :</string>
+
+    <string name="register_emaill">Email...</string>
+    <string name="register_password">Password...</string>
+    <string name="register_confirm_password">Confirm Password...</string>
+    <string name="register_button">Create Account</string>
+    <string name="register_toast_error_email">Please Write Your Email....</string>
+    <string name="register_toast_error_password">Please Write Your Password....</string>
+    <string name="register_toast_error_password_confirm">Please Confirm Your Password....</string>
+    <string name="register_toast_error_password_not_match">Your Password doesn\'t Match With Your Confirm Password....</string>
+    <string name="register_toast_success">You Are Register Successfully....</string>
+    <string name="register_toast_not_success">"Error : "</string>
+    <string name="register_loadingbar_title">Creating New Account</string>
+    <string name="register_loadingbar_message">Please Wait, While We Are Creating Your New Account....</string>
+    <string name="register_send_emaill_verification_message">Registration Successfully, We have Send You A mail. Please Check And Verify Your Account</string>
+
+    <string name="reset_password_message">We Will Mail You A link After When You Provide Email And Click The Send Button. Please Click On That Link To Reset Your Password.</string>
+    <string name="reset_password_email">Write Your Email Here...</string>
+    <string name="reset_passwodrd_send_button">Send Email</string>
+    <string name="reset_passwodrd_toolbar_title">Reset Password</string>
+    <string name="reset_passwodrd_email_empty">Please Write Your Valid Email Address First...</string>
+    <string name="reset_passwodrd_email_success">Please Check Your Email Account, If You Want To Reset Your Password....</string>
+    <string name="reset_passwodrd_email_error">Error :</string>
+
+    <string name="nav_menu_add_new_post">Add New Post</string>
+    <string name="nav_menu_home">Home</string>
+    <string name="nav_menu_message">Messages</string>
+    <string name="nav_menu_gold_post">Gold Posts</string>
+    <string name="nav_menu_friends_taq">Friends</string>
+    <string name="nav_menu_friends">Friends</string>
+    <string name="nav_menu_find_friends">Find Friends</string>
+    <string name="nav_menu_friends_request_sent">Sent Requests</string>
+    <string name="nav_menu_friends_request_recived">Received Requests</string>
+
+    <string name="nav_menu_notifications_taq">Notifications</string>
+    <string name="nav_menu_notifications_posts_likes">Posts Likes</string>
+    <string name="nav_menu_notifications_posts_dislikes">Posts disLikes</string>
+    <string name="nav_menu_notifications_posts_gold">Posts Gold</string>
+    <string name="posts_loadingbar_title">Posts Loading</string>
+    <string name="posts_loadingbar_message">Loading............</string>
+
+
+    <string name="nav_menu_friends_request_book">Friends Book</string>
+    <string name="nav_menu_settings_taq">Settings</string>
+    <string name="nav_menu_profile">Profile</string>
+    <string name="nav_menu_settings">Settings</string>
+    <string name="nav_menu_logout_taq">Logout</string>
+    <string name="nav_menu_logout">Logout</string>
+
+    <string name="setup_username">User Name</string>
+    <string name="setup_fullname">Full Name</string>
+    <string name="setup_country">Country</string>
+    <string name="setup_save_button">Save</string>
+    <string name="setup_toast_error_username">Please Write Your User Name....</string>
+    <string name="setup_toast_error_fullname">Please Write Your Full Name....</string>
+    <string name="setup_toast_error_fullname_sobig">Full Name must be less than 30 character....</string>
+    <string name="setup_toast_error_fullname_sosmall">Full Name must be Biger than 10 character....</string>
+    <string name="setup_toast_error_username_sosmall">User Name must be Biger than 3 character....</string>
+    <string name="setup_toast_error_country">Please Write Your Country....</string>
+    <string name="setup_loadingbar_title">Saving Information</string>
+    <string name="setup_loadingbar_message">Please Wait, While We Are Creating Your New Account....</string>
+    <string name="setup_toast_success">Your Account Is Created Successfully....</string>
+    <string name="setup_toast_not_success">"Error : "</string>
+    <string name="setup_toast_success_image_store">Profile Image Stored Successfully....</string>
+    <string name="setup_toast_success_image_store_database">Profile Image Stored To Database Successfully....</string>
+    <string name="setup_toast_not_success_image_store">Error : Image Can\'t Be Croped, Try Again</string>
+    <string name="setup_profilrimage_loadingbar_title">Profile Image Update</string>
+    <string name="setup_profilrimage_loadingbar_message">Please Wait, While We Are Updating Your Profile Image....</string>
+    <string name="setup_toast_not_success_profileimage_store">"Error : "</string>
+    <string name="setup_toast_not_slect_profileimage">Please Select Profile Image First...</string>
+    <string name="setup_username_isexists">Please Enter Another User Name.</string>
+
+    <string name="home_toast_profilename_not_exist">Profile Name doesn\'t Exists...</string>
+
+    <string name="mainactivity_dailog_ok_button">Ok</string>
+
+    <string name="post_toolbr_title">New Post</string>
+    <string name="post_text_post">Write Your Post Here To Share With Friends</string>
+    <string name="post_share_button_post">Share Post</string>
+    <string name="post_image_not_selected">Please Select Post Image....</string>
+    <string name="post_description_is_empty">Please Say Something About Your Image....</string>
+    <string name="post_not_saved">Your Post Not Saved....</string>
+    <string name="post_saved">Your Post Is Saved Successfully....</string>
+    <string name="post_new_post_loadingbar_title">Adding New Post</string>
+    <string name="post_new_post_loadingbar_message">Please Wait, While We Are Adding Your Post....</string>
+    <string name="all_post_layout_username">User Name</string>
+    <string name="all_post_layout_added">Published at </string>
+    <string name="all_post_layout_date">Date</string>
+    <string name="all_post_layout_time">Time</string>
+    <string name="all_post_layout_description">Post Description.....</string>
+    <string name="all_post_layout_display_no_of_likes">0 Like</string>
+    <string name="all_post_layout_display_no_of_comments">0 Comment</string>
+    <string name="all_post_layout_display_no_of_dislikes">0 disLike</string>
+    <string name="all_post_layout_display_no_of_gold">0 Gold</string>
+    <string name="all_post_layout_display_no_of_replays">0 Replay</string>
+    <string name="all_post_layout_display_no_of_likes_after_like">Like</string>
+    <string name="all_post_layout_display_no_of_comments_after_comment">Comment</string>
+    <string name="all_post_layout_display_no_of_likes_after_dislike">disLike</string>
+    <string name="all_post_layout_display_no_of_golds_after_gold">Gold</string>
+    <string name="all_post_layout_display_no_of_comments_after_comment_replay">Replay</string>
+
+    <string name="click_post_page_edit_button">Edit</string>
+    <string name="click_post_page_delete_button">Delete</string>
+    <string name="click_post_page_post_description">Post Description</string>
+    <string name="click_post_page_post_deleteted">Post has been deleted.</string>
+    <string name="click_post_page_edit_post_dailog_title">Edit Post</string>
+    <string name="click_post_page_edit_post_dailog_update_button">Update</string>
+    <string name="click_post_page_edit_post_dailog_cancle_button">Cancle</string>
+    <string name="click_post_page_edit_post_dailog_success">Post Updated Successfully...</string>
+    <string name="click_post_page_edit_post_dailog_description_empty">Please Enter Your Post Description....</string>
+
+    <string name="click_post_page_delete_post_dailog_title">Delete Post</string>
+    <string name="click_post_page_delete_post_dailog_delete_button">Delete</string>
+    <string name="click_post_page_delete_post_dailog_cancle_button">Cancle</string>
+    <string name="click_post_page_delete_post_dailog_success">Post Delete Successfully...</string>
+    <string name="click_post_page_delete_post_dailog_confirm_message">Are You Sure You Wannna Delete This Post ?</string>
+    <string name="click_post_page_comment_input_hint">Write Comment Here....</string>
+    <string name="click_post_page_comment_input_empty">Please Enter Your Comment</string>
+    <string name="click_post_page_comment_success">You Commented Successfully....</string>
+    <string name="click_post_page_comment_not_success">Error , Try Again....</string>
+
+    <string name="click_post_page_edit_main_comments_dailog_title">Edit Comment</string>
+    <string name="click_post_page_edit_main_comments_dailog_update_button">Update</string>
+    <string name="click_post_page_edit_main_comments_dailog_cancle_button">Cancle</string>
+    <string name="click_post_page_edit_main_comments_dailog_success">Comment Updated Successfully...</string>
+    <string name="click_post_page_edit_main_comments_dailog_description_empty">Please Enter Your Comment Description....</string>
+
+    <string name="click_post_page_delete_main_comments_dailog_title">Delete Comment</string>
+    <string name="click_post_page_delete_main_comments_dailog_delete_button">Delete</string>
+    <string name="click_post_page_delete_main_comments_dailog_cancle_button">Cancle</string>
+    <string name="click_post_page_delete_main_comments_dailog_success">Comment Delete Successfully...</string>
+    <string name="click_post_page_delete_main_comments_dailog_confirm_message">Are You Sure You Wannna Delete This Comment ?</string>
+
+    <string name="click_post_page_edit_replay_dailog_title">Edit Replay</string>
+    <string name="click_post_page_edit_replay_dailog_update_button">Update</string>
+    <string name="click_post_page_edit_replay_dailog_cancle_button">Cancle</string>
+    <string name="click_post_page_edit_replay_dailog_success">Replay Updated Successfully...</string>
+    <string name="click_post_page_edit_replay_dailog_description_empty">Please Enter Your Replay....</string>
+
+    <string name="click_post_page_delete_replay_dailog_title">Delete Replay</string>
+    <string name="click_post_page_delete_replay_dailog_delete_button">Delete</string>
+    <string name="click_post_page_delete_replay_dailog_cancle_button">Cancle</string>
+    <string name="click_post_page_delete_replay_dailog_success">Replay Delete Successfully...</string>
+    <string name="click_post_page_delete_replay_dailog_confirm_message">Are You Sure You Wannna Delete This Replay ?</string>
+
+    <string name="click_post_page_add_replay_dailog_title">Add Your Replay</string>
+    <string name="click_post_page_add_replay_dailog_add_button">Add</string>
+    <string name="click_post_page_add_replay_dailog_cancle_button">Cancle</string>
+    <string name="click_post_page_add_replay_dailog_success">Replay Updated Successfully...</string>
+    <string name="click_post_page_add_replay_dailog_not_success">Replay Not Updated...</string>
+    <string name="click_post_page_add_replay_dailog_replay_empty">Please Enter Your Replay....</string>
+
+    <string name="settings_profile_status">Profile Status</string>
+    <string name="settings_profile_username">User Name</string>
+    <string name="settings_profile_fullname">Profile Full Name</string>
+    <string name="settings_profile_country">Country</string>
+    <string name="settings_profile_dob">Date Of Birth</string>
+    <string name="settings_go_to_selected_year_button">Go</string>
+    <string name="settings_profile_from">From</string>
+    <string name="settings_profile_livesin">Lives In</string>
+    <string name="settings_profile_gender">Gender</string>
+    <string name="settings_profile_relationship_status">Relationship Status</string>
+    <string name="settings_update_account_button">Update Account Settings</string>
+    <string name="settings_toolbar_title">Account Settings</string>
+    <string name="settings_username_empty">Please Write Your User Name....</string>
+    <string name="settings_fullname_empty">Please Write Your Full Name....</string>
+    <string name="settings_status_empty">Please Write Your Status....</string>
+    <string name="settings_date_of_birth_big">Date Of Birth Should not Bigger Than</string>
+    <string name="settings_date_of_birth_small">Date Of Birth Should not Smaller Than</string>
+    <string name="settings_dob_empty">Please Write Your Date Of Birth....</string>
+    <string name="settings_country_empty">Please Write Your Country....</string>
+    <string name="settings_gender_empty">Please Write Your Gender....</string>
+    <string name="settings_relation_empty">Please Write Your Relationship Status....</string>
+    <string name="settings_account_update_success">Account Settings Updated Successfully....</string>
+    <string name="settings_account_update_not_success">Error : While Updating Account Setting Info....</string>
+
+    <string name="profile_profile_full_name">Profile Name</string>
+    <string name="profile_profile_user_name">User Name</string>
+    <string name="profile_profile_status">Hey There, I\'m Using Baraka Sky App , Developed By Ahmed Taha.</string>
+    <string name="profile_profile_country">Country</string>
+    <string name="profile_profile_country_lives">Lives In</string>
+    <string name="profile_profile_dob">Date Of Birth</string>
+    <string name="profile_profile_gender">Gender</string>
+    <string name="profile_profile_relationship_status">Relationship Status</string>
+    <string name="profile_profile_country_p">Country : </string>
+    <string name="profile_profile_country_lives_p">Lives In : </string>
+    <string name="profile_profile_dob_p">Date Of Birth : </string>
+    <string name="profile_profile_gender_p">Gender : </string>
+    <string name="profile_profile_relationship_status_p">Relationship Status : </string>
+    <string name="profile_profile_number_of_posts">Posts</string>
+    <string name="profile_profile_number_of_friends">Friends</string>
+
+    <string name="person_profile_full_name">Profile Name</string>
+    <string name="person_profile_user_name">User Name</string>
+    <string name="person_profile_status">Hey There, I\'m Using Baraka Sky App , Developed By Ahmed Taha.</string>
+    <string name="person_profile_country">Country</string>
+    <string name="person_profile_country_lives">Lives In</string>
+    <string name="person_profile_dob">Date Of Birth</string>
+    <string name="person_profile_gender">Gender</string>
+    <string name="person_profile_relationship_status">Relationship Status</string>
+    <string name="person_profile_country_p">Country : </string>
+    <string name="person_profile_country_lives_p">Lives In : </string>
+    <string name="person_profile_dob_p">Date Of Birth : </string>
+    <string name="person_profile_gender_p">Gender : </string>
+    <string name="person_profile_relationship_status_p">Relationship Status : </string>
+    <string name="person_send_friend_request_button">Send Friend Request</string>
+    <string name="person_book_friend_button">Book This Person</string>
+    <string name="person_unbook_friend_button">unBook This Person</string>
+    <string name="person_decline_friend_request_button">Cancle Friend Request</string>
+    <string name="person_cancle_friend_request_button">Cancle Friend Request</string>
+    <string name="person_accept_friend_request_button">Accept Friend Request</string>
+    <string name="person_unfriend_request_button">Unfriend This Person</string>
+    <string name="person_profile_number_of_posts">Posts</string>
+    <string name="person_profile_send_message_button">Send Message</string>
+    <string name="person_profile_recived_cross">This Person Has Recived 20 Friends Requests, Please Try Again Later....</string>
+    <string name="person_profile_sended_cross">You Have Sent 20 Friends Requests, Please Try Again Later....</string>
+
+    <string name="find_friends_simpletextid">Search For People, Friends, Famaily, School, Collage, University And Work, We Have</string>
+    <string name="find_friends_simpletextid_online">Online User From</string>
+    <string name="find_friends_simpletextid_users">Users.</string>
+    <string name="find_friends_search_text_hint">Search Here....</string>
+    <string name="find_friends_profile_full_name">User Full Name</string>
+    <string name="find_friends_profile_status">Status</string>
+    <string name="find_friends_toolbar_title">Find Friends</string>
+    <string name="find_friends_toast_searching">Searching....</string>
+    <string name="find_friends_no_data_available_null">Please Enter User Full Name</string>
+    <string name="find_friends_no_data_available_no_user">No User Founded</string>
+
+    <string name="comments_layout_full_name">Full Name</string>
+    <string name="comments_layout_datetime">Commented On </string>
+    <string name="comments_layout_comment">Comment here.....</string>
+    <string name="comments_layout_replay">Replay here.....</string>
+
+    <string name="friends_text_view_friends">You Have</string>
+    <string name="friends_text_view_friends_online">Friends Online From</string>
+    <string name="friends_text_view_friends_online_after">Friends.</string>
+    <string name="friends_text_view_friends_date">Friends Since :</string>
+    <string name="friends_visit_friend_profile">\'s Profile</string>
+    <string name="friends_send_message_to_friend">Send Message</string>
+    <string name="friends_dailog_title">Select Options</string>
+
+    <string name="chat_message_text">Write Your Message Here...</string>
+    <string name="chat_message_notfriend">You Are Not Friend With This Persion...</string>
+    <string name="chat_custom_bar_profile_name">Display User Name</string>
+    <string name="chat_custom_bar_user_last_seen">Last seen</string>
+    <string name="chat_message_empty">Please Type Message First...</string>
+    <string name="chat_online_state">Online</string>
+    <string name="chat_last_seen_state">Last Seen:</string>
+    <string name="chat_toast_success_image_store">Image Stored Successfully....</string>
+    <string name="chat_toast_success_image_store_database">Image Stored To Database Successfully....</string>
+    <string name="chat_toast_not_success_profileimage_store">"Error : "</string>
+    <string name="chat_toast_not_success_image_store">Error : Image Can\'t Be Store, Try Again....</string>
+    <string name="chat_loadingbar_title">Sending Image</string>
+    <string name="chat_loadingbar_message">Please Wait, While We Are Sending Your Image....</string>
+    <string name="chat_sended_image">Image</string>
+
+    <string name="message_layout_reciver_text">reciver message</string>
+    <string name="message_layout_reciver_image_download">Download Image</string>
+    <string name="message_layout_sender_text">sender message</string>
+    <string name="message_layout_reciver_time">reciver message date</string>
+    <string name="message_layout_sender_time">sender message date</string>
+    <string name="message_layout_date">Date</string>
+
+    <string name="my_posts_toolbar_title">My Posts</string>
+    <string name="my_posts_toolbar_title_after">Posts</string>
+
+    <string name="sent_friends_request_text_view">You have Sent 0 Friends Request</string>
+    <string name="sent_friends_request_text_view_before">You have Sent</string>
+    <string name="sent_friends_request_text_view_after">Friends Request</string>
+    <string name="sent_friends_request_profile_full_name">User Full Name</string>
+    <string name="sent_friends_request_decline_friend_request_button">Cancle Friend Request</string>
+
+    <string name="recived_friends_request_text_view">You have Recived 0 Friends Request</string>
+    <string name="recived_friends_request_text_view_before">You have Recived</string>
+    <string name="recived_friends_request_text_view_after">Friends Request</string>
+    <string name="recived_friends_request_profile_full_name">User Full Name</string>
+    <string name="recived_friends_request_accept_friend_request_button">Accept Friend Request</string>
+    <string name="recived_friends_request_decline_friend_request_button">Cancle Friend Request</string>
+
+    <string name="book_friends_text_view">You have Booked 0 Person</string>
+    <string name="book_friends_text_view_before">You have Booked</string>
+    <string name="book_friends_text_view_after">Person</string>
+    <string name="book_friends_profile_full_name">User Full Name</string>
+    <string name="book_friends_unbook_friend_button">unBook This Person</string>
+
+    <string name="gold_posts_toolbar_title">Gold Posts</string>
+
+    <string name="notif_likes_posts_toolbar_title">Likes Posts</string>
+
+    <string name="notif_dislikes_posts_toolbar_title">disLikes Posts</string>
+
+    <string name="notif_gold_posts_toolbar_title">Gold Posts</string>
+
+
+    <string name="show_likes_posts_users_simpletext_before">Users Likes</string>
+    <string name="show_likes_posts_users_simpletext_after">Post</string>
+
+    <string name="show_dislikes_posts_users_simpletext_before">Users disLikes</string>
+    <string name="show_dislikes_posts_users_simpletext_after">Post</string>
+
+    <string name="show_gold_posts_users_simpletext_before">Users Gold</string>
+    <string name="show_gold_posts_users_simpletext_after">Post</string>
+
+    <string name="show_comments_posts_users_simpletext_before">Users Comments</string>
+    <string name="show_comments_posts_users_simpletext_after">Post</string>
+
+    <string name="show_like_main_comments_users_simpletext_before">Users Likes</string>
+    <string name="show_like_main_comments_users_simpletext_after">Comment</string>
+
+    <string name="show_replays_main_comments_users_simpletext_before">Users Replays</string>
+    <string name="show_replays_main_comments_users_simpletext_after">Comment</string>
+
+    <string name="show_like_replays_main_comments_users_simpletext_before">Users Likes</string>
+    <string name="show_like_replays_main_comments_users_simpletext_after">Replays</string>
+
+    <string name="download_image_title">Download Image</string>
+    <string name="download_image_success">Downloaded</string>
+    <string name="download_image_notsuccess">Not Download</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="gender_ar">
+        <item>ذكر</item>
+        <item>أنثى</item>
+    </string-array>
+    
+    <string-array name="relationship">
+        <item>Single</item>
+        <item>Engaged</item>
+        <item>Married</item>
+        <item>In a relationship</item>
+        <item>Divorced</item>
+    </string-array>
+    <string-array name="relationship_ar">
+        <item>أعزب - عزباء</item>
+        <item>مخطوب - مخطوبة</item>
+        <item>متزوج - متزوجة</item>
+        <item>فى علاقة</item>
+        <item>مطلق - مطلقة</item>
+    </string-array>
+
+    <string-array name="user_language">
+        <item>Arabic</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="countries_array">
+        <item>Egypt</item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Bouvet Island</item>
+        <item>Brazil</item>
+        <item>British Indian Ocean Territory</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos (Keeling) Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Cote d\'Ivoire</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>East Timor</item>
+        <item>Ecuador</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Faeroe Islands</item>
+        <item>Falkland Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>Former Yugoslav Republic of Macedonia</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>French Polynesia</item>
+        <item>French Southern Territories</item>
+        <item>Gabon</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Heard Island and McDonald Islands</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norfolk Island</item>
+        <item>North Korea</item>
+        <item>Northern Marianas</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Palestine</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn Islands</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Sqo Tome and Principe</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia and the South Sandwich Islands</item>
+        <item>South Korea</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>The Bahamas</item>
+        <item>The Gambia</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican City</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Yugoslavia</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+
+    <!--<string-array name="countries_array_ar">
+        <item>مصر</item>
+        <item>أفغانستان</item>
+        <item>ألبانيا</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>الأرجنتين</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Bouvet Island</item>
+        <item>Brazil</item>
+        <item>British Indian Ocean Territory</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos (Keeling) Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Cote d\'Ivoire</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>East Timor</item>
+        <item>Ecuador</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Faeroe Islands</item>
+        <item>Falkland Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>Former Yugoslav Republic of Macedonia</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>French Polynesia</item>
+        <item>French Southern Territories</item>
+        <item>Gabon</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Heard Island and McDonald Islands</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norfolk Island</item>
+        <item>North Korea</item>
+        <item>Northern Marianas</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn Islands</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Sqo Tome and Principe</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia and the South Sandwich Islands</item>
+        <item>South Korea</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>The Bahamas</item>
+        <item>The Gambia</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican City</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Yugoslavia</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>-->
+
+    <string-array name="countries_array_ar">
+        <item>مصر</item>
+        <item>أفغانستان</item>
+        <item>ألبانيا</item>
+        <item>الجزائر</item>
+        <item>ساموا الأمريكية</item>
+        <item>أندورا</item>
+        <item>أنجولا</item>
+        <item>أنغيلا</item>
+        <item>القارة القطبية الجنوبية</item>
+        <item>أنتيغوا وبربودا</item>
+        <item>الأرجنتين</item>
+        <item>أرمينيا</item>
+        <item>أستراليا</item>
+        <item>النمسا</item>
+        <item>أذربيجان</item>
+        <item>البحرين</item>
+        <item>بنغلاديش</item>
+        <item>بربادوس</item>
+        <item>روسيا البيضاء</item>
+        <item>بلجيكا</item>
+        <item>بليز</item>
+        <item>بنين</item>
+        <item>برمودا</item>
+        <item>بوتان</item>
+        <item>بوليفيا</item>
+        <item>البوسنة والهرسك</item>
+        <item>بوتسوانا</item>
+        <item>جزيرة بوفيت</item>
+        <item>البرازيل</item>
+        <item>إقليم المحيط البريطاني الهندي</item>
+        <item>جزر فيرجن البريطانية</item>
+        <item>بروناي</item>
+        <item>بلغاريا</item>
+        <item>بوركينا فاسو</item>
+        <item>بوروندي</item>
+        <item>كمبوديا</item>
+        <item>الكاميرون</item>
+        <item>كندا</item>
+        <item>الرأس الأخضر</item>
+        <item>جزر كايمان</item>
+        <item>جمهورية افريقيا الوسطى</item>
+        <item>تشاد</item>
+        <item>تشيلي</item>
+        <item>الصين</item>
+        <item>جزيرة الكريسماس</item>
+        <item>جزر كوكوس (كيلينغ)</item>
+        <item>كولومبيا</item>
+        <item>جزر القمر</item>
+        <item>الكونغو</item>
+        <item>جزر كوك</item>
+        <item>كوستا ريكا</item>
+        <item>كوت ديفوار</item>
+        <item>كرواتيا</item>
+        <item>كوبا</item>
+        <item>قبرص</item>
+        <item>جمهورية التشيك</item>
+        <item>جمهورية الكونغو الديموقراطية</item>
+        <item>الدنمارك</item>
+        <item>جيبوتي</item>
+        <item>دومينيكا</item>
+        <item>جمهورية الدومنيكان</item>
+        <item>تيمور الشرقية</item>
+        <item>الإكوادور</item>
+        <item>السلفادور</item>
+        <item>غينيا الإستوائية</item>
+        <item>إريتريا</item>
+        <item>استونيا</item>
+        <item>أثيوبيا</item>
+        <item>جزر فارو</item>
+        <item>جزر فوكلاند</item>
+        <item>فيجي</item>
+        <item>فنلندا</item>
+        <item>جمهورية مقدونيا اليوغوسلافية السابقة</item>
+        <item>فرنسا</item>
+        <item>غيانا الفرنسية</item>
+        <item>بولينيزيا الفرنسية</item>
+        <item>المناطق الجنوبية لفرنسا</item>
+        <item>الجابون</item>
+        <item>جورجيا</item>
+        <item>ألمانيا</item>
+        <item>غانا</item>
+        <item>جبل طارق</item>
+        <item>اليونان</item>
+        <item>الأرض الخضراء</item>
+        <item>غرينادا</item>
+        <item>جوادلوب</item>
+        <item>غوام</item>
+        <item>جواتيمالا</item>
+        <item>غينيا</item>
+        <item>غينيا بيساو</item>
+        <item>غيانا</item>
+        <item>هايتي</item>
+        <item>جزيرة هيرد وجزر ماكدونالد</item>
+        <item>هندوراس</item>
+        <item>هونغ كونغ</item>
+        <item>هنغاريا</item>
+        <item>أيسلندا</item>
+        <item>الهند</item>
+        <item>أندونيسيا</item>
+        <item>إيران</item>
+        <item>العراق</item>
+        <item>أيرلندا</item>
+        <item>إيطاليا</item>
+        <item>جامايكا</item>
+        <item>اليابان</item>
+        <item>الأردن</item>
+        <item>كازاخستان</item>
+        <item>كينيا</item>
+        <item>كريباتي</item>
+        <item>الكويت</item>
+        <item>قرغيزستان</item>
+        <item>لاوس</item>
+        <item>لاتفيا</item>
+        <item>لبنان</item>
+        <item>ليسوتو</item>
+        <item>ليبيريا</item>
+        <item>ليبيا</item>
+        <item>ليختنشتاين</item>
+        <item>لتوانيا</item>
+        <item>لوكسمبورغ</item>
+        <item>ماكاو</item>
+        <item>مدغشقر</item>
+        <item>مالاوي</item>
+        <item>ماليزيا</item>
+        <item>جزر المالديف</item>
+        <item>مالي</item>
+        <item>مالطا</item>
+        <item>جزر مارشال</item>
+        <item>جزر المارتينيك</item>
+        <item>موريتانيا</item>
+        <item>موريشيوس</item>
+        <item>جزيرة مايوت</item>
+        <item>المكسيك</item>
+        <item>ميكرونيزيا</item>
+        <item>مولدوفا</item>
+        <item>موناكو</item>
+        <item>منغوليا</item>
+        <item>الجبل الأسود</item>
+        <item>مونتسيرات</item>
+        <item>المغرب</item>
+        <item>موزمبيق</item>
+        <item>ميانمار</item>
+        <item>ناميبيا</item>
+        <item>ناورو</item>
+        <item>نيبال</item>
+        <item>هولندا</item>
+        <item>جزر الأنتيل الهولندية</item>
+        <item>كاليدونيا الجديدة</item>
+        <item>نيوزيلندا</item>
+        <item>نيكاراغوا</item>
+        <item>النيجر</item>
+        <item>نيجيريا</item>
+        <item>نيوي</item>
+        <item>جزيرة نورفولك</item>
+        <item>كوريا الشمالية</item>
+        <item>ماريان الشمالية</item>
+        <item>النرويج</item>
+        <item>سلطنة عمان</item>
+        <item>فلسطين</item>
+        <item>باكستان</item>
+        <item>بالاو</item>
+        <item>بناما</item>
+        <item>بابوا غينيا الجديدة</item>
+        <item>باراجواي</item>
+        <item>بيرو</item>
+        <item>الفلبين</item>
+        <item>جزر بيتكيرن</item>
+        <item>بولندا</item>
+        <item>البرتغال</item>
+        <item>بورتوريكو</item>
+        <item>دولة قطر</item>
+        <item>لا ريونيون</item>
+        <item>رومانيا</item>
+        <item>روسيا</item>
+        <item>رواندا</item>
+        <item>ساو تومي وبرنسيبي</item>
+        <item>سانت هيلانة</item>
+        <item>سانت كيتس ونيفيس</item>
+        <item>القديسة لوسيا</item>
+        <item>سانت بيير وميكلون</item>
+        <item>سانت فنسنت وجزر غرينادين</item>
+        <item>ساموا</item>
+        <item>سان مارينو</item>
+        <item>المملكة العربية السعودية</item>
+        <item>السنغال</item>
+        <item>صربيا</item>
+        <item>جزر سيشل</item>
+        <item>سيراليون</item>
+        <item>سنغافورة</item>
+        <item>سلوفاكيا</item>
+        <item>سلوفينيا</item>
+        <item>جزر سليمان</item>
+        <item>الصومال</item>
+        <item>جنوب أفريقيا</item>
+        <item>جورجيا الجنوبية وجزر ساندويتش الجنوبية</item>
+        <item>كوريا الجنوبية</item>
+        <item>جنوب السودان</item>
+        <item>إسبانيا</item>
+        <item>سيريلانكا</item>
+        <item>السودان</item>
+        <item>سورينام</item>
+        <item>سفالبارد وجان مايان</item>
+        <item>سوازيلاند</item>
+        <item>السويد</item>
+        <item>سويسرا</item>
+        <item>سوريا</item>
+        <item>تايوان</item>
+        <item>طاجكستان</item>
+        <item>تنزانيا</item>
+        <item>تايلاند</item>
+        <item>جزر البهاما</item>
+        <item>غامبيا</item>
+        <item>توغو</item>
+        <item>توكيلاو</item>
+        <item>تونغا</item>
+        <item>ترينداد وتوباغو</item>
+        <item>تونس</item>
+        <item>تركيا</item>
+        <item>تركمانستان</item>
+        <item>جزر تركس وكايكوس</item>
+        <item>توفالو</item>
+        <item>أوغندا</item>
+        <item>أوكرانيا</item>
+        <item>الإمارات العربية المتحدة</item>
+        <item>بريطانيا</item>
+        <item>الولايات المتحدة الأمريكية</item>
+        <item>أوروغواي</item>
+        <item>أوزبكستان</item>
+        <item>فانواتو</item>
+        <item>مدينة الفاتيكان</item>
+        <item>فنزويلا</item>
+        <item>فيتنام</item>
+        <item>واليس وفوتونا</item>
+        <item>الصحراء الغربية</item>
+        <item>اليمن</item>
+        <item>يوغوسلافيا</item>
+        <item>زامبيا</item>
+        <item>زيمبابوي</item>
+    </string-array>
+
+
+
+    <string-array name="countries_lives_array">
+        <item>Egypt</item>
+        <item>Afghanistan</item>
+        <item>Aland Islands</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Western Australia</item>
+        <item>South Australia</item>
+        <item>Northern Australia</item>
+        <item>Australia New South Wales</item>
+        <item>Australia Tasmania</item>
+        <item>Australia Victoria</item>
+        <item>Australian Capital Territory</item>
+        <item>Australia Canberra capital city</item>
+        <item>Australia Queensland</item>
+        <item>Australia Lord Howe Island</item>
+        <item>Australia Macquarie Island</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bonaire - Netherlands</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Bouvet Island</item>
+        <item>Brazil Acre</item>
+        <item>Brazil Southwest Amazonas</item>
+        <item>Brazil Most of Amazonas</item>
+        <item>Brazil Rondonia</item>
+        <item>Brazil Roraima</item>
+        <item>Brazil Alagoas</item>
+        <item>Brazil Amapa</item>
+        <item>Brazil Maranhao</item>
+        <item>Brazil Para</item>
+        <item>Brazil Piaui</item>
+        <item>Brazil Ceara</item>
+        <item>Brazil Sergipe</item>
+        <item>Brazil Paraiba</item>
+        <item>Brazil Pernambuco</item>
+        <item>Brazil Rio Grande do Norte</item>
+        <item>Brazil Bahia</item>
+        <item>Brazil Tocantins</item>
+        <item>Brazil Distrito Federal</item>
+        <item>Brazil Espirito Santo</item>
+        <item>Brazil Goias</item>
+        <item>Brazil Minas Gerais</item>
+        <item>Brazil Parana</item>
+        <item>Brazil Rio de Janeiro</item>
+        <item>Brazil Rio Grande do Sul</item>
+        <item>Brazil Santa Catarina</item>
+        <item>Brazil Sao Paulo</item>
+        <item>Brazil Fernando de Noronha</item>
+        <item>Brazil Trindade</item>
+        <item>British Indian Ocean Territory</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cabo Verde</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada Toronto</item>
+        <item>Canada Edmonton</item>
+        <item>Canada Winnipeg</item>
+        <item>Canada Vancouver</item>
+        <item>Canada Halifax</item>
+        <item>Canada Saint Johns</item>
+        <item>Caribbean Netherlands</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chatham Islands</item>
+        <item>Chile main territory</item>
+        <item>Chile Magallanes Region</item>
+        <item>Chile Easter Island</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo Democratic Republic Western</item>
+        <item>Congo Democratic Republic Eastern</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Cote dIvoire</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>East Timor</item>
+        <item>Ecuador main territory</item>
+        <item>Ecuador Galapagos Province</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Eswatini</item>
+        <item>Ethiopia</item>
+        <item>Faeroe Islands</item>
+        <item>Falkland Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>Former Yugoslav Republic of Macedonia</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>French Polynesia Gambier Islands</item>
+        <item>French Polynesia  Marquesas Islands</item>
+        <item>French Polynesia  Tahiti Island</item>
+        <item>French Southern Territories</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Denmark</item>
+        <item>Denmark Thule Air Base</item>
+        <item>Denmark Ittoqqortoormiit</item>
+        <item>Denmark Danmarkshavn</item>
+        <item>Denmark Station Nord</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guernsey</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Heard Island and McDonald Islands</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia Sumatra Island</item>
+        <item>Indonesia Java Island</item>
+        <item>Indonesia West Kalimantan</item>
+        <item>Indonesia Central Kalimantan</item>
+        <item>Indonesia Sulawesi Island</item>
+        <item>Indonesia Lesser Sunda Islands</item>
+        <item>Indonesia North Kalimantan</item>
+        <item>Indonesia East Kalimantan</item>
+        <item>Indonesia South Kalimantan</item>
+        <item>Indonesia Maluku Islands</item>
+        <item>Indonesia Papua</item>
+        <item>Indonesia West Papua</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Isle of Man</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jersey</item>
+        <item>Jordan</item>
+        <item>Kazakhstan Western</item>
+        <item>Kazakhstan Eastern</item>
+        <item>Kenya</item>
+        <item>Kerguelen Islands</item>
+        <item>Kiribati Gilbert Islands</item>
+        <item>Kiribati Phoenix Islands</item>
+        <item>Kiribati Line Islands</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Mexico state of Quintana Roo</item>
+        <item>Mexico state of Baja California Sur</item>
+        <item>Mexico Chihuahua</item>
+        <item>Mexico Nayarit</item>
+        <item>Mexico Sinaloa</item>
+        <item>Mexico state of Sonora</item>
+        <item>Mexico state of Baja California</item>
+        <item>Micronesia  states of Chuuk and Yap</item>
+        <item>Micronesia  states of Kosrae and Pohnpei</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Mongolia provinces of Khovd</item>
+        <item>Mongolia Uvs</item>
+        <item>Mongolia Bayan-Olgii</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norfolk Island</item>
+        <item>North Korea</item>
+        <item>Northern Marianas</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Palestine</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Papua New Guinea Bougainville Island</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn Islands</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Russia Kamchatka</item>
+        <item>Russia Kaliningrad</item>
+        <item>Russia Moscow</item>
+        <item>Russia Samara</item>
+        <item>Russia Yekaterinburg</item>
+        <item>Russia Omsk</item>
+        <item>Russia Kemerovo</item>
+        <item>Russia Irkutsk</item>
+        <item>Russia Yakutsk</item>
+        <item>Russia Vladivostok</item>
+        <item>Russia Srednekolymsk</item>
+        <item>Rwanda</item>
+        <item>Sao Tome and Principe</item>
+        <item>Saint Barthelemy</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Martin</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Sint Eustatius</item>
+        <item>Sint Maarten</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia and the South Sandwich Islands</item>
+        <item>South Korea</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Timor Leste</item>
+        <item>The Bahamas</item>
+        <item>The Gambia</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States Chicago</item>
+        <item>United States Los Angeles</item>
+        <item>United States Alaska</item>
+        <item>United States Hawaii</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican City</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wake Island</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Yugoslavia</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+
+    <!--<string-array name="countries_lives_array_ar">
+        <item>مصر</item>
+        <item>أفغانستان</item>
+        <item>جزر آلاند</item>
+        <item>ألبانيا</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Western Australia</item>
+        <item>South Australia</item>
+        <item>Northern Australia</item>
+        <item>Australia New South Wales</item>
+        <item>Australia Tasmania</item>
+        <item>Australia Victoria</item>
+        <item>Australian Capital Territory</item>
+        <item>Australia Canberra capital city</item>
+        <item>Australia Queensland</item>
+        <item>Australia Lord Howe Island</item>
+        <item>Australia Macquarie Island</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bonaire - Netherlands</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Bouvet Island</item>
+        <item>Brazil Acre</item>
+        <item>Brazil Southwest Amazonas</item>
+        <item>Brazil Most of Amazonas</item>
+        <item>Brazil Rondonia</item>
+        <item>Brazil Roraima</item>
+        <item>Brazil Alagoas</item>
+        <item>Brazil Amapa</item>
+        <item>Brazil Maranhao</item>
+        <item>Brazil Para</item>
+        <item>Brazil Piaui</item>
+        <item>Brazil Ceara</item>
+        <item>Brazil Sergipe</item>
+        <item>Brazil Paraiba</item>
+        <item>Brazil Pernambuco</item>
+        <item>Brazil Rio Grande do Norte</item>
+        <item>Brazil Bahia</item>
+        <item>Brazil Tocantins</item>
+        <item>Brazil Distrito Federal</item>
+        <item>Brazil Espirito Santo</item>
+        <item>Brazil Goias</item>
+        <item>Brazil Minas Gerais</item>
+        <item>Brazil Parana</item>
+        <item>Brazil Rio de Janeiro</item>
+        <item>Brazil Rio Grande do Sul</item>
+        <item>Brazil Santa Catarina</item>
+        <item>Brazil Sao Paulo</item>
+        <item>Brazil Fernando de Noronha</item>
+        <item>Brazil Trindade</item>
+        <item>British Indian Ocean Territory</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cabo Verde</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada Toronto</item>
+        <item>Canada Edmonton</item>
+        <item>Canada Winnipeg</item>
+        <item>Canada Vancouver</item>
+        <item>Canada Halifax</item>
+        <item>Canada Saint Johns</item>
+        <item>Caribbean Netherlands</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chatham Islands</item>
+        <item>Chile main territory</item>
+        <item>Chile Magallanes Region</item>
+        <item>Chile Easter Island</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo Democratic Republic Western</item>
+        <item>Congo Democratic Republic Eastern</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Cote dIvoire</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>East Timor</item>
+        <item>Ecuador main territory</item>
+        <item>Ecuador Galapagos Province</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Eswatini</item>
+        <item>Ethiopia</item>
+        <item>Faeroe Islands</item>
+        <item>Falkland Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>Former Yugoslav Republic of Macedonia</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>French Polynesia Gambier Islands</item>
+        <item>French Polynesia  Marquesas Islands</item>
+        <item>French Polynesia  Tahiti Island</item>
+        <item>French Southern Territories</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Denmark</item>
+        <item>Denmark Thule Air Base</item>
+        <item>Denmark Ittoqqortoormiit</item>
+        <item>Denmark Danmarkshavn</item>
+        <item>Denmark Station Nord</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guernsey</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Heard Island and McDonald Islands</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia Sumatra Island</item>
+        <item>Indonesia Java Island</item>
+        <item>Indonesia West Kalimantan</item>
+        <item>Indonesia Central Kalimantan</item>
+        <item>Indonesia Sulawesi Island</item>
+        <item>Indonesia Lesser Sunda Islands</item>
+        <item>Indonesia North Kalimantan</item>
+        <item>Indonesia East Kalimantan</item>
+        <item>Indonesia South Kalimantan</item>
+        <item>Indonesia Maluku Islands</item>
+        <item>Indonesia Papua</item>
+        <item>Indonesia West Papua</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Isle of Man</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jersey</item>
+        <item>Jordan</item>
+        <item>Kazakhstan Western</item>
+        <item>Kazakhstan Eastern</item>
+        <item>Kenya</item>
+        <item>Kerguelen Islands</item>
+        <item>Kiribati Gilbert Islands</item>
+        <item>Kiribati Phoenix Islands</item>
+        <item>Kiribati Line Islands</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Mexico state of Quintana Roo</item>
+        <item>Mexico state of Baja California Sur</item>
+        <item>Mexico Chihuahua</item>
+        <item>Mexico Nayarit</item>
+        <item>Mexico Sinaloa</item>
+        <item>Mexico state of Sonora</item>
+        <item>Mexico state of Baja California</item>
+        <item>Micronesia  states of Chuuk and Yap</item>
+        <item>Micronesia  states of Kosrae and Pohnpei</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Mongolia provinces of Khovd</item>
+        <item>Mongolia Uvs</item>
+        <item>Mongolia Bayan-Olgii</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norfolk Island</item>
+        <item>North Korea</item>
+        <item>Northern Marianas</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Palestine</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Papua New Guinea Bougainville Island</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn Islands</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Russia Kamchatka</item>
+        <item>Russia Kaliningrad</item>
+        <item>Russia Moscow</item>
+        <item>Russia Samara</item>
+        <item>Russia Yekaterinburg</item>
+        <item>Russia Omsk</item>
+        <item>Russia Kemerovo</item>
+        <item>Russia Irkutsk</item>
+        <item>Russia Yakutsk</item>
+        <item>Russia Vladivostok</item>
+        <item>Russia Srednekolymsk</item>
+        <item>Rwanda</item>
+        <item>Sao Tome and Principe</item>
+        <item>Saint Barthelemy</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Martin</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Sint Eustatius</item>
+        <item>Sint Maarten</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia and the South Sandwich Islands</item>
+        <item>South Korea</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Timor Leste</item>
+        <item>The Bahamas</item>
+        <item>The Gambia</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States Chicago</item>
+        <item>United States Los Angeles</item>
+        <item>United States Alaska </item>
+        <item>United States Hawaii</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican City</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wake Island</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Yugoslavia</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>-->
+
+    <string-array name="countries_lives_array_ar">
+        <item>مصر</item>
+        <item>أفغانستان</item>
+        <item>جزر آلاند</item>
+        <item>ألبانيا</item>
+        <item>الجزائر</item>
+        <item>ساموا الأمريكية</item>
+        <item>أندورا</item>
+        <item>أنجولا</item>
+        <item>أنغيلا</item>
+        <item>القارة القطبية الجنوبية</item>
+        <item>أنتيغوا وبربودا</item>
+        <item>الأرجنتين</item>
+        <item>أرمينيا</item>
+        <item>القسم الغربي من استراليا</item>
+        <item>جنوب استراليا</item>
+        <item>شمال استراليا</item>
+        <item>أستراليا نيو ساوث ويلز</item>
+        <item>استراليا تسمانيا</item>
+        <item>استراليا فيكتوريا</item>
+        <item>إقليم العاصمة الأسترالية</item>
+        <item>استراليا العاصمة كانبيرا</item>
+        <item>استراليا كوينزلاند</item>
+        <item>استراليا جزيرة لورد هاو</item>
+        <item>استراليا جزيرة ماكواري</item>
+        <item>النمسا</item>
+        <item>أذربيجان</item>
+        <item>الباهاما</item>
+        <item>البحرين</item>
+        <item>بنغلاديش</item>
+        <item>بربادوس</item>
+        <item>روسيا البيضاء</item>
+        <item>بلجيكا</item>
+        <item>بليز</item>
+        <item>بنين</item>
+        <item>برمودا</item>
+        <item>بوتان</item>
+        <item>بوليفيا</item>
+        <item>هولندا</item>
+        <item>البوسنة والهرسك</item>
+        <item>بوتسوانا</item>
+        <item>جزيرة بوفيت</item>
+        <item>البرازيل عكار</item>
+        <item>البرازيل جنوب غرب الأمازون</item>
+        <item>البرازيل معظم الأمازون</item>
+        <item>البرازيل روندونيا</item>
+        <item>البرازيل رورايما</item>
+        <item>البرازيل ألاغواس</item>
+        <item>البرازيل امابا</item>
+        <item>البرازيل مارانهاو</item>
+        <item>البرازيل بارا</item>
+        <item>البرازيل بياوي</item>
+        <item>البرازيل سيارا</item>
+        <item>البرازيل سيرجيبي</item>
+        <item>البرازيل بارايبا</item>
+        <item>البرازيل بيرنامبوكو</item>
+        <item>البرازيل ريو غراندي دو نورتي</item>
+        <item>البرازيل باهيا</item>
+        <item>البرازيل توكانتينز</item>
+        <item>البرازيل المقاطعة الاتحادية</item>
+        <item>البرازيل اسبيريتو سانتو</item>
+        <item>البرازيل غوياس</item>
+        <item>البرازيل ميناس جيرايس</item>
+        <item>البرازيل بارانا</item>
+        <item>البرازيل ريو دي جانيرو</item>
+        <item>البرازيل ريو غراندي دو سول</item>
+        <item>البرازيل سانتا كاتارينا</item>
+        <item>البرازيل ساو باولو</item>
+        <item>البرازيل فرناندو دي نورونها</item>
+        <item>البرازيل ترينداد</item>
+        <item>إقليم المحيط البريطاني الهندي</item>
+        <item>جزر فيرجن البريطانية</item>
+        <item>بروناي</item>
+        <item>بلغاريا</item>
+        <item>بوركينا فاسو</item>
+        <item>بوروندي</item>
+        <item>كابو فيردي</item>
+        <item>كمبوديا</item>
+        <item>الكاميرون</item>
+        <item>كندا تورنتو</item>
+        <item>كندا ادمونتون</item>
+        <item>كندا وينيبيج</item>
+        <item>كندا فانكوفر</item>
+        <item>كندا هاليفاكس</item>
+        <item>كندا سانت جونز</item>
+        <item>منطقة البحر الكاريبي هولندا</item>
+        <item>الرأس الأخضر</item>
+        <item>جزر كايمان</item>
+        <item>جمهورية افريقيا الوسطى</item>
+        <item>تشاد</item>
+        <item>جزر تشاتام</item>
+        <item>إقليم شيلي الرئيسي</item>
+        <item>شيلي  منطقة ماجلان</item>
+        <item>شيلي جزيرة الفصح</item>
+        <item>الصين</item>
+        <item>جزيرة الكريسماس</item>
+        <item>جزر كوكوس</item>
+        <item>كولومبيا</item>
+        <item>جزر القمر</item>
+        <item>جمهورية الكونغو الديمقراطية الغربية</item>
+        <item>جمهورية الكونغو الديمقراطية الشرقية</item>
+        <item>جزر كوك</item>
+        <item>كوستا ريكا</item>
+        <item>كوت ديفوار</item>
+        <item>كرواتيا</item>
+        <item>كوبا</item>
+        <item>قبرص</item>
+        <item>جمهورية التشيك</item>
+        <item>جمهورية الكونغو الديموقراطية</item>
+        <item>الدنمارك</item>
+        <item>جيبوتي</item>
+        <item>دومينيكا</item>
+        <item>جمهورية الدومنيكان</item>
+        <item>تيمور الشرقية</item>
+        <item>الإكوادور الإقليم الرئيسي</item>
+        <item>مقاطعة الاكوادور غالاباغوس</item>
+        <item>السلفادور</item>
+        <item>غينيا الإستوائية</item>
+        <item>إريتريا</item>
+        <item>استونيا</item>
+        <item>سوازيلند</item>
+        <item>أثيوبيا</item>
+        <item>جزر فارو</item>
+        <item>جزر فوكلاند</item>
+        <item>فيجي</item>
+        <item>فنلندا</item>
+        <item>جمهورية مقدونيا اليوغوسلافية السابقة</item>
+        <item>فرنسا</item>
+        <item>غيانا الفرنسية</item>
+        <item>جزر بولينيزيا الفرنسية جامبير</item>
+        <item>بولينيزيا الفرنسية جزر ماركيساس</item>
+        <item>جزيرة بولينيزيا الفرنسية تاهيتي</item>
+        <item>المناطق الجنوبية لفرنسا</item>
+        <item>الجابون</item>
+        <item>جامبيا</item>
+        <item>جورجيا</item>
+        <item>ألمانيا</item>
+        <item>غانا</item>
+        <item>جبل طارق</item>
+        <item>اليونان</item>
+        <item>الدنمارك</item>
+        <item>الدنمارك القاعدة الجوية ثول</item>
+        <item>الدنمارك إيتوكورتيرمايت</item>
+        <item>الدنمارك دنماركشافن</item>
+        <item>محطة الدنمارك نورد</item>
+        <item>غرينادا</item>
+        <item>جوادلوب</item>
+        <item>غوام</item>
+        <item>جواتيمالا</item>
+        <item>غيرنسي</item>
+        <item>غينيا</item>
+        <item>غينيا بيساو</item>
+        <item>غيانا</item>
+        <item>هايتي</item>
+        <item>جزيرة هيرد وجزر ماكدونالد</item>
+        <item>هندوراس</item>
+        <item>هونغ كونغ</item>
+        <item>هنغاريا</item>
+        <item>أيسلندا</item>
+        <item>الهند</item>
+        <item>اندونيسيا جزيرة سومطرة</item>
+        <item>اندونيسيا جزيرة جاوة</item>
+        <item>اندونيسيا غرب كاليمانتان</item>
+        <item>اندونيسيا وسط كاليمانتان</item>
+        <item>اندونيسيا جزيرة سولاويزي</item>
+        <item>اندونيسيا الصغرى جزر سوندا</item>
+        <item>اندونيسيا شمال كاليمانتان</item>
+        <item>اندونيسيا شرق كاليمانتان</item>
+        <item>اندونيسيا جنوب كاليمانتان</item>
+        <item>اندونيسيا جزر مالوكو</item>
+        <item>اندونيسيا بابوا</item>
+        <item>اندونيسيا غرب بابوا</item>
+        <item>إيران</item>
+        <item>العراق</item>
+        <item>أيرلندا</item>
+        <item>جزيرة آيل أوف مان</item>
+        <item>إيطاليا</item>
+        <item>جامايكا</item>
+        <item>اليابان</item>
+        <item>جيرسي</item>
+        <item>الأردن</item>
+        <item>كازاخستان الغربية</item>
+        <item>كازاخستان الشرقية</item>
+        <item>كينيا</item>
+        <item>جزر كيرغولن</item>
+        <item>جزر كيريباتي جيلبرت</item>
+        <item>كيريباتي جزر فينيكس</item>
+        <item>جزر كيريباتي لاين</item>
+        <item>كوسوفو</item>
+        <item>الكويت</item>
+        <item>قرغيزستان</item>
+        <item>لاوس</item>
+        <item>لاتفيا</item>
+        <item>لبنان</item>
+        <item>ليسوتو</item>
+        <item>ليبيريا</item>
+        <item>ليبيا</item>
+        <item>ليختنشتاين</item>
+        <item>لتوانيا</item>
+        <item>لوكسمبورغ</item>
+        <item>ماكاو</item>
+        <item>مقدونيا</item>
+        <item>مدغشقر</item>
+        <item>مالاوي</item>
+        <item>ماليزيا</item>
+        <item>جزر المالديف</item>
+        <item>مالي</item>
+        <item>مالطا</item>
+        <item>جزر مارشال</item>
+        <item>جزر المارتينيك</item>
+        <item>موريتانيا</item>
+        <item>موريشيوس</item>
+        <item>جزيرة مايوت</item>
+        <item>المكسيك</item>
+        <item>المكسيك ولاية كوينتانا رو</item>
+        <item>المكسيك ولاية باجا كاليفورنيا سور</item>
+        <item>المكسيك تشيهواهوا</item>
+        <item>المكسيك ناياريت</item>
+        <item>المكسيك سينالوا</item>
+        <item>المكسيك ولاية سونورا</item>
+        <item>المكسيك ولاية باجا كاليفورنيا</item>
+        <item>دول ميكرونيزيا من شوك وياب</item>
+        <item>دول ميكرونيزيا من كوسراي وبوهنباي</item>
+        <item>مولدوفا</item>
+        <item>موناكو</item>
+        <item>منغوليا</item>
+        <item>مقاطعات منغوليا من خوفد</item>
+        <item>منغوليا أوفس</item>
+        <item>منغوليا البيان-أولجي</item>
+        <item>الجبل الأسود</item>
+        <item>مونتسيرات</item>
+        <item>المغرب</item>
+        <item>موزمبيق</item>
+        <item>ميانمار</item>
+        <item>ناميبيا</item>
+        <item>ناورو</item>
+        <item>نيبال</item>
+        <item>هولندا</item>
+        <item>جزر الأنتيل الهولندية</item>
+        <item>كاليدونيا الجديدة</item>
+        <item>نيوزيلندا</item>
+        <item>نيكاراغوا</item>
+        <item>النيجر</item>
+        <item>نيجيريا</item>
+        <item>نيوي</item>
+        <item>جزيرة نورفولك</item>
+        <item>كوريا الشمالية</item>
+        <item>ماريان الشمالية</item>
+        <item>النرويج</item>
+        <item>سلطنة عمان</item>
+        <item>فلسطين</item>
+        <item>باكستان</item>
+        <item>بالاو</item>
+        <item>بناما</item>
+        <item>بابوا غينيا الجديدة</item>
+        <item>بابوا غينيا الجديدة جزيرة بوغانفيل</item>
+        <item>باراجواي</item>
+        <item>بيرو</item>
+        <item>الفلبين</item>
+        <item>جزر بيتكيرن</item>
+        <item>بولندا</item>
+        <item>البرتغال</item>
+        <item>بورتوريكو</item>
+        <item>دولة قطر</item>
+        <item>لا ريونيون</item>
+        <item>رومانيا</item>
+        <item>روسيا كامتشاتكا</item>
+        <item>روسيا كالينينجراد</item>
+        <item>روسيا موسكو</item>
+        <item>روسيا سمارة</item>
+        <item>روسيا ايكاترينبرج</item>
+        <item>روسيا أومسك</item>
+        <item>روسيا كيميروفو</item>
+        <item>روسيا إيركوتسك</item>
+        <item>روسيا ياكوتسك</item>
+        <item>روسيا فلاديفوستوك</item>
+        <item>روسيا سريدنكوليمسك</item>
+        <item>رواندا</item>
+        <item>ساو تومي وبرنسيبي</item>
+        <item>سانت بارتيليمي</item>
+        <item>سانت هيلانة</item>
+        <item>سانت كيتس ونيفيس</item>
+        <item>القديسة لوسيا</item>
+        <item>سانت مارتن</item>
+        <item>سانت بيير وميكلون</item>
+        <item>سانت فنسنت وجزر غرينادين</item>
+        <item>ساموا</item>
+        <item>سان مارينو</item>
+        <item>المملكة العربية السعودية</item>
+        <item>السنغال</item>
+        <item>صربيا</item>
+        <item>جزر سيشل</item>
+        <item>سيراليون</item>
+        <item>سنغافورة</item>
+        <item>سينت أوستاتيوس</item>
+        <item>سانت مارتن</item>
+        <item>سلوفاكيا</item>
+        <item>سلوفينيا</item>
+        <item>جزر سليمان</item>
+        <item>الصومال</item>
+        <item>جنوب أفريقيا</item>
+        <item>جورجيا الجنوبية وجزر ساندويتش الجنوبية</item>
+        <item>كوريا الجنوبية</item>
+        <item>جنوب السودان</item>
+        <item>إسبانيا</item>
+        <item>سيريلانكا</item>
+        <item>السودان</item>
+        <item>سورينام</item>
+        <item>سفالبارد وجان مايان</item>
+        <item>سوازيلاند</item>
+        <item>السويد</item>
+        <item>سويسرا</item>
+        <item>سوريا</item>
+        <item>تايوان</item>
+        <item>طاجكستان</item>
+        <item>تنزانيا</item>
+        <item>تايلاند</item>
+        <item>تيمور ليشتي</item>
+        <item>جزر البهاما</item>
+        <item>غامبيا</item>
+        <item>توغو</item>
+        <item>توكيلاو</item>
+        <item>تونغا</item>
+        <item>ترينداد وتوباغو</item>
+        <item>تونس</item>
+        <item>تركيا</item>
+        <item>تركمانستان</item>
+        <item>جزر تركس وكايكوس</item>
+        <item>توفالو</item>
+        <item>أوغندا</item>
+        <item>أوكرانيا</item>
+        <item>الإمارات العربية المتحدة</item>
+        <item>بريطانيا</item>
+        <item>الولايات المتحدة شيكاغو</item>
+        <item>الولايات المتحدة لوس انجليس</item>
+        <item>الولايات المتحدة ألاسكا</item>
+        <item>الولايات المتحدة هاواي</item>
+        <item>أوروغواي</item>
+        <item>أوزبكستان</item>
+        <item>فانواتو</item>
+        <item>مدينة الفاتيكان</item>
+        <item>فنزويلا</item>
+        <item>فيتنام</item>
+        <item>جزيرة ويك</item>
+        <item>واليس وفوتونا</item>
+        <item>الصحراء الغربية</item>
+        <item>اليمن</item>
+        <item>يوغوسلافيا</item>
+        <item>زامبيا</item>
+        <item>زيمبابوي</item>
+    </string-array>
+</resources>

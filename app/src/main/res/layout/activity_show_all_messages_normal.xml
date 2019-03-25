@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowAllMessagesActivity"
+    tools:ignore="MissingDefaultResource"
+    android:background="@color/colorprofile"
+    android:id="@+id/main_showallmessages_root">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/show_all_messages_list"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+        android:scrollbarThumbVertical="@drawable/myscrollbar"
+        android:scrollbarSize="@dimen/myscroolbar_size"
+        android:layout_margin="@dimen/showallmessages_show_all_messages_list_margin"
+
+        ></android.support.v7.widget.RecyclerView>
+</RelativeLayout>

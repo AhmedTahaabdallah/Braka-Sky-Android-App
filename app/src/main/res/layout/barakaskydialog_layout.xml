@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/barakadialog_width"
+    android:layout_height="@dimen/barakadialog_height"
+    android:layout_gravity="center"
+    android:layout_marginStart="@dimen/barakadialog_marginstart"
+    android:layout_marginEnd="@dimen/barakadialog_marginend"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layoutDirection="locale">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/barakadialog_barakadialog_card_height"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/barakadialog_barakadialog_card_marginend"
+            android:layout_marginStart="@dimen/barakadialog_barakadialog_card_marginstart"
+            app:cardCornerRadius="@dimen/barakadialog_barakadialog_card_cardcornerradius"
+            app:cardElevation="@dimen/barakadialog_barakadialog_card_cardelevation"
+            app:cardBackgroundColor="@color/barakdialog_background"
+            android:id="@+id/barakadialog_card"
+            >
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/barakadialog_scrollview_marginbottom"
+                android:fadeScrollbars="false"
+                android:scrollbarSize="@dimen/myscroolbar_size"
+                android:scrollbarThumbVertical="@color/myscrollbar_color">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/barakadialog_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_marginTop="@dimen/barakadialog_barakadialog_title_margintop"
+                        android:text="Title"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="@dimen/barakadialog_barakadialog_title_textsize"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="@dimen/barakadialog_barakadialog_title_marginbottom"
+                        android:layout_marginStart="@dimen/barakadialog_barakadialog_title_marginstart"
+                        android:layout_marginEnd="@dimen/barakadialog_barakadialog_title_marginend"
+                        />
+                    <ImageView
+                        android:layout_width="@dimen/barakadialog_barakadialog_image_width"
+                        android:layout_height="@dimen/barakadialog_barakadialog_image_height"
+                        android:id="@+id/barakadialog_image"
+                        />
+                    <TextView
+                        android:id="@+id/barakadialog_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textDirection="locale"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/barakadialog_barakadialog_message_margintop"
+                        android:text="Message"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="@dimen/barakadialog_barakadialog_message_textsize"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="@dimen/barakadialog_barakadialog_message_marginbottom"
+                        android:layout_marginStart="@dimen/barakadialog_barakadialog_message_marginstart"
+                        android:layout_marginEnd="@dimen/barakadialog_barakadialog_message_marginend"
+                        />
+                    <TextView
+                        android:id="@+id/barakadialog_link"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/barakadialog_barakadialog_link_margintop"
+                        android:text="Link"
+                        android:textColor="@color/barakdialog_linktxt"
+                        android:textSize="@dimen/barakadialog_barakadialog_link_textsize"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="@dimen/barakadialog_barakadialog_link_marginbottom"
+                        android:layout_marginStart="@dimen/barakadialog_barakadialog_link_marginstart"
+                        android:layout_marginEnd="@dimen/barakadialog_barakadialog_link_marginend"
+                        />
+                </LinearLayout>
+            </ScrollView>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/barakadialog_ok"
+        android:layout_marginTop="@dimen/barakadialog_barakadialog_ok_margintop">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="@dimen/barakadialog_barakadialog_ok_flotting_width"
+            android:layout_height="@dimen/barakadialog_barakadialog_ok_flotting_height"
+            android:src="@android:color/transparent"
+            app:backgroundTint="@color/barakdialog_okcolor" />
+
+        <TextView
+            android:id="@+id/barakadialog_ok_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="@dimen/barakadialog_barakadialog_ok_text_elevation"
+            android:text="Ok"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/barakadialog_barakadialog_ok_text_textsize"
+            android:visibility="visible"/>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/allsmeesageslayout_all_users_smessage_allcont_margin"
+    android:id="@+id/all_users_smessage_allcont"
+    android:background="@color/colorprofilesub"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/all_user_show_messages_contener"
+        >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/allsmeesageslayout_all_users_show_messages_profile_image_width"
+        android:layout_height="@dimen/allsmeesageslayout_all_users_show_messages_profile_image_height"
+        android:id="@+id/all_users_show_messages_profile_image"
+        android:layout_marginStart="@dimen/allsmeesageslayout_all_users_show_messages_profile_image_marginstrt"
+        android:layout_marginEnd="@dimen/allsmeesageslayout_all_users_show_messages_profile_image_marginend"
+        android:src="@drawable/profile"
+        android:layout_marginTop="@dimen/allsmeesageslayout_all_users_show_messages_profile_image_margintop"
+        android:layout_marginBottom="@dimen/allsmeesageslayout_all_users_show_messages_profile_image_marginbottom"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/all_smessages_info_connnn"
+        android:layout_margin="@dimen/allsmeesageslayout_all_smessages_info_connnn_margin"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/allsmeesageslayout_all_users_show_messages_profile_full_name_weight"
+                android:id="@+id/all_users_show_messages_profile_full_name"
+                android:text="@string/find_friends_profile_full_name"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold"
+                android:textSize="@dimen/allsmeesageslayout_all_users_show_messages_profile_full_name_textsize"
+                android:layout_marginBottom="@dimen/allsmeesageslayout_all_users_show_messages_profile_full_name_marginbottom"
+                android:layout_marginTop="@dimen/allsmeesageslayout_all_users_show_messages_profile_full_name_margintop"
+                android:textDirection="locale"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/allsmeesageslayout_all_users_show_messages_number_of_not_seen_message_weight"
+                android:id="@+id/all_users_show_messages_number_of_not_seen_message"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:textSize="@dimen/allsmeesageslayout_all_users_show_messages_number_of_not_seen_message_textsize"
+                android:layout_marginBottom="@dimen/allsmeesageslayout_all_users_show_messages_number_of_not_seen_message_marginbottom"
+                android:layout_marginTop="@dimen/allsmeesageslayout_all_users_show_messages_number_of_not_seen_message_margintop"
+                android:layout_marginEnd="@dimen/allsmeesageslayout_all_users_show_messages_number_of_not_seen_message_marginend"
+                android:layout_marginStart="@dimen/allsmeesageslayout_all_users_show_messages_number_of_not_seen_message_marginstart"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/allsmeesageslayout_all_user_show_messages_online_icon_height"
+                android:layout_weight="@dimen/allsmeesageslayout_all_user_show_messages_online_icon_weight"
+                android:id="@+id/all_user_show_messages_online_icon"
+                android:src="@drawable/online"
+                android:layout_marginTop="@dimen/allsmeesageslayout_all_user_show_messages_online_icon_margintop"
+                android:layout_marginEnd="@dimen/allsmeesageslayout_all_user_show_messages_online_icon_marginend"
+                android:layout_marginStart="@dimen/allsmeesageslayout_all_user_show_messages_online_icon_marginstart"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/all_users_show_messages_last_message"
+            android:text=""
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            android:textSize="@dimen/allsmeesageslayout_all_users_show_messages_last_message_textsize"
+            android:layout_marginBottom="@dimen/allsmeesageslayout_all_users_show_messages_last_message_marginbottom"
+            android:textDirection="locale"
+
+            />
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

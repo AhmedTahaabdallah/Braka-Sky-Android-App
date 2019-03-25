@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:id="@+id/chat_bar_allcont"
+    android:padding="@dimen/chatbar_chat_bar_allcont_padding"
+    android:layout_margin="@dimen/chatbar_chat_bar_allcont_margin"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/chatbar_custom_chat_profile_image_width"
+        android:layout_height="@dimen/chatbar_custom_chat_profile_image_height"
+        android:id="@+id/custom_chat_profile_image"
+        android:src="@drawable/profile"
+        android:layout_alignParentTop="true"
+        android:cropToPadding="true"
+        android:layout_marginTop="@dimen/chatbar_custom_chat_profile_image_margintop"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/custom_chat_profile_name"
+        android:text="@string/chat_custom_bar_profile_name"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/chatbar_custom_chat_profile_name_textsize"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/chatbar_custom_chat_profile_name_margintop"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/custom_chat_profile_image"
+        android:layout_marginEnd="@dimen/chatbar_custom_chat_profile_name_marginend"
+        android:layout_marginStart="@dimen/chatbar_custom_chat_profile_name_marginstart"
+        android:textDirection="locale"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/custom_chat_user_last_seen"
+        android:text="@string/chat_custom_bar_user_last_seen"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/chatbar_custom_chat_user_last_seen_textsize"
+
+        android:layout_marginTop="@dimen/chatbar_custom_chat_user_last_seen_margintop"
+        android:layout_below="@+id/custom_chat_profile_name"
+        android:layout_toEndOf="@+id/custom_chat_profile_image"
+        android:layout_marginEnd="@dimen/chatbar_custom_chat_user_last_seen_marginend"
+        android:layout_marginStart="@dimen/chatbar_custom_chat_user_last_seen_marginstart"
+        android:textDirection="locale"
+        />
+</RelativeLayout>

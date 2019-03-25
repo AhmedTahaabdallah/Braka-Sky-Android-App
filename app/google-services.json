@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1041947753537",
+    "firebase_url": "https://baraka-sky.firebaseio.com",
+    "project_id": "baraka-sky",
+    "storage_bucket": "baraka-sky.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041947753537:android:2fc3ecd03802b9d8",
+        "android_client_info": {
+          "package_name": "com.ahmedtaha.barakasky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041947753537-hr3jt9v85heh8dibts2f81qufuigh7o6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ahmedtaha.barakasky",
+            "certificate_hash": "0109cc99ea9583c73cb72f2196869bc27769eb6d"
+          }
+        },
+        {
+          "client_id": "1041947753537-cofqrlm9kkf9e5cv0onugn4lrkft2kqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmAAiXHh00PpkJHiHbII5N7WsXUrkbZB8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041947753537-cofqrlm9kkf9e5cv0onugn4lrkft2kqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-1847297911542220~9228430010"
+    }
+  ],
+  "configuration_version": "1"
+}

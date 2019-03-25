@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_post"
+        android:title="@string/nav_menu_add_new_post"
+        android:icon="@drawable/add_post"/>
+    <!--<item
+        android:id="@+id/nav_home"
+        android:title="@string/nav_menu_home"
+        android:icon="@drawable/home"
+        app:actionViewClass="android.widget.TextView"/>-->
+    <item
+        android:id="@+id/nav_messages"
+        android:title="@string/nav_menu_message"
+        android:icon="@drawable/messages"
+        app:actionViewClass="android.widget.TextView"/>
+
+    <item
+        android:id="@+id/nav_gold_post"
+        android:title="@string/nav_menu_gold_post"
+        android:icon="@drawable/gold_post"
+        app:actionViewClass="android.widget.TextView"/>
+
+    <item android:title="@string/nav_menu_friends_taq">
+        <menu>
+            <item
+                android:id="@+id/nav_friends"
+                android:title="@string/nav_menu_friends"
+                android:icon="@drawable/friends"
+                app:actionViewClass="android.widget.TextView"/>
+            <item
+                android:id="@+id/nav_find_friends"
+                android:title="@string/nav_menu_find_friends"
+                android:icon="@drawable/find_people"/>
+            <item
+                android:id="@+id/nav_sent_friends_requests"
+                android:title="@string/nav_menu_friends_request_sent"
+                android:icon="@drawable/sent_friend_request"
+                app:actionViewClass="android.widget.TextView"/>
+            <item
+                android:id="@+id/nav_recived_friends_requests"
+                android:title="@string/nav_menu_friends_request_recived"
+                android:icon="@drawable/recive_friend_request"
+                app:actionViewClass="android.widget.TextView"/>
+            <item
+                android:id="@+id/nav_book_friends_requests"
+                android:title="@string/nav_menu_friends_request_book"
+                android:icon="@drawable/book_friends"
+                app:actionViewClass="android.widget.TextView"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_menu_notifications_taq">
+        <menu>
+            <item
+                android:id="@+id/nav_notifications_posts_likes"
+                android:title="@string/nav_menu_notifications_posts_likes"
+                android:icon="@drawable/mlike"
+                app:actionViewClass="android.widget.TextView"/>
+            <item
+                android:id="@+id/nav_notifications_posts_dislikes"
+                android:title="@string/nav_menu_notifications_posts_dislikes"
+                android:icon="@drawable/mdislike"
+                app:actionViewClass="android.widget.TextView"/>
+            <item
+                android:id="@+id/nav_notifications_posts_gold"
+                android:title="@string/nav_menu_notifications_posts_gold"
+                android:icon="@drawable/mgoldstar"
+                app:actionViewClass="android.widget.TextView"/>
+
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_menu_settings_taq">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:title="@string/nav_menu_profile"
+                android:icon="@drawable/profile_icon"
+                />
+            <item
+                android:id="@+id/nav_settings"
+                android:title="@string/nav_menu_settings"
+                android:icon="@drawable/settings"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_menu_logout_taq">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="@string/nav_menu_logout"
+                android:icon="@drawable/logout"/>
+        </menu>
+    </item>
+
+</menu>

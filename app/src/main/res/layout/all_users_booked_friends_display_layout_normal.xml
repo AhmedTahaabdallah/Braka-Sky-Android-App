@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/allbookedlayout_all_users_booked_allcont_margin"
+    android:background="@color/colorprofilesub"
+    android:orientation="vertical"
+    android:id="@+id/all_users_booked_allcont"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/all_user_sent_friends_request_contener"
+        >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/allbookedlayout_all_users_booked_friends_profile_image_width"
+        android:layout_height="@dimen/allbookedlayout_all_users_booked_friends_profile_image_height"
+        android:id="@+id/all_users_booked_friends_profile_image"
+        android:layout_marginStart="@dimen/allbookedlayout_all_users_booked_friends_profile_image_marginstrt"
+        android:layout_marginEnd="@dimen/allbookedlayout_all_users_booked_friends_profile_image_marginend"
+        android:src="@drawable/profile"
+        android:layout_marginTop="@dimen/allbookedlayout_all_users_booked_friends_profile_image_margintop"
+        android:layout_marginBottom="@dimen/allbookedlayout_all_users_booked_friends_profile_image_marginbottom"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/allbookedlayout_all_booked_info_connnn_margin"
+        android:id="@+id/all_booked_info_connnn"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/book_cont">
+            <ImageButton
+                android:layout_width="@dimen/allbookedlayout_book_friend_sign_width"
+                android:layout_height="@dimen/allbookedlayout_book_friend_sign_height"
+                android:id="@+id/book_friend_sign"
+                android:src="@drawable/friend_singn"
+                android:layout_marginTop="@dimen/allbookedlayout_book_friend_sign_margintop"
+                android:layout_marginEnd="@dimen/allbookedlayout_book_friend_sign_marginend"
+                android:visibility="visible"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/all_users_booked_friends_profile_full_name"
+                android:text="@string/sent_friends_request_profile_full_name"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold"
+                android:textSize="@dimen/allbookedlayout_all_users_booked_friends_profile_full_name_textsize"
+                android:layout_marginBottom="@dimen/allbookedlayout_all_users_booked_friends_profile_full_name_marginbottom"
+                android:layout_marginTop="@dimen/allbookedlayout_all_users_booked_friends_profile_full_name_margintop"
+                android:textDirection="locale"
+                />
+        </LinearLayout>
+
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/all_users_booked_friends_unbooked_friend_button"
+
+            android:background="@color/cancle_friend_request_color"
+            android:text="@string/book_friends_unbook_friend_button"
+            android:textAllCaps="false"
+            android:layout_marginBottom="@dimen/allbookedlayout_all_users_booked_friends_unbooked_friend_button_marginbottom"
+            android:textColor="@android:color/background_light"
+            android:paddingStart="@dimen/allbookedlayout_all_users_booked_friends_unbooked_friend_button_paddingstart"
+            android:paddingEnd="@dimen/allbookedlayout_all_users_booked_friends_unbooked_friend_button_paddingend"
+            android:textSize="@dimen/allbookedlayout_all_users_booked_friends_unbooked_friend_button_textsize"
+            android:layout_below="@+id/book_cont"
+            />
+    </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

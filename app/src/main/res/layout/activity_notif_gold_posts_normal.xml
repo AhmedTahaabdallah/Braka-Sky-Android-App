@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotifGoldPostsActivity"
+    tools:ignore="MissingDefaultResource"
+    android:id="@+id/main_notifigoldposts_root">
+    <include
+        layout="@layout/app_bar_layout"
+        android:id="@+id/notif_gold_posts_layout_bar"></include>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/all_notif_gold_posts_list"
+        android:layout_below="@+id/notif_gold_posts_layout_bar"
+        android:layout_margin="@dimen/notifgoldposts_all_gold_posts_list_margin"
+        android:padding="@dimen/notifgoldposts_all_gold_posts_list_padding"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+        android:scrollbarThumbVertical="@android:color/holo_red_dark"
+        android:scrollbarSize="@dimen/myscroolbar_size"></android.support.v7.widget.RecyclerView>
+</RelativeLayout>
